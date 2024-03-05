@@ -11,6 +11,7 @@ struct EntryView: View {
     @State private var sheetSecondPageHeight: CGFloat = .zero
     @State private var sheetScrollProgress: CGFloat = .zero
     @State private var isKeyboardShowing: Bool = false
+    @State private var showHomeView: Bool = false
     
     var body: some View {
         VStack {
@@ -61,11 +62,20 @@ struct EntryView: View {
                                 .opacity(1 - sheetScrollProgress)
                                 .frame(width: 120 + (sheetScrollProgress * (registedUser ? -20 : 25)))
                                 .overlay(content: {
-                                    HStack(spacing: 8) {
-                                        Text(registedUser ? "Login" :" Get Started")
-                                    }
-                                    .fontWeight(.semibold)
-                                    .opacity(sheetScrollProgress)
+                                    Button(action: {
+                                        if sheetScrollProgress >= 1 {
+                                            showHomeView.toggle()
+                                        }
+                                    }, label: {
+                                        HStack(spacing: 8) {
+                                            Text(registedUser ? "Login" : "Get Started")
+                                        }
+                                        .fontWeight(.semibold)
+                                        .opacity(sheetScrollProgress)
+                                    })
+                                    .fullScreenCover(isPresented: $showHomeView, content: {
+                                        ContentView() // Replace YourDestinationView with the actual destination view
+                                    })
                                 })
                                 .padding(.vertical, 12)
                                 .foregroundStyle(.white)
@@ -88,6 +98,7 @@ struct EntryView: View {
             })
         })
     }
+    
     @ViewBuilder
     func OnboardingSheet(_ size: CGSize) -> some View {
         VStack(alignment: .leading, spacing: 12, content: {
