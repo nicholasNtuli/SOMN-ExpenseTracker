@@ -18,7 +18,7 @@ struct EntryView: View {
                 showSheet.toggle()
             }
             .buttonStyle(.borderedProminent)
-            .tint(.red)
+            .tint(.gray)
         }
         .padding(30)
         .sheet(isPresented: $showSheet, onDismiss: {
