@@ -4,7 +4,7 @@ import SwiftUI
 struct SOMN_ExpenseTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EntryView()
         }
     }
 }

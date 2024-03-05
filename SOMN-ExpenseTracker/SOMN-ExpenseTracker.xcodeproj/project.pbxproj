@@ -17,6 +17,10 @@
 		7A2017D82B978E990020B9F4 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2017D72B978E990020B9F4 /* OnboardingView.swift */; };
 		7A2017DD2B978F0B0020B9F4 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2017DC2B978F0B0020B9F4 /* Onboarding.swift */; };
 		7A2017E02B9795CA0020B9F4 /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2017DF2B9795CA0020B9F4 /* Extenstions.swift */; };
+		7A2017E32B97B1560020B9F4 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2017E22B97B1560020B9F4 /* EntryView.swift */; };
+		7A2017E62B97B8510020B9F4 /* SizeKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2017E52B97B8510020B9F4 /* SizeKey.swift */; };
+		7A2017EA2B97BBFA0020B9F4 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2017E92B97BBFA0020B9F4 /* CustomTextField.swift */; };
+		7A2017EC2B97C2820020B9F4 /* OffesetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2017EB2B97C2820020B9F4 /* OffesetKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		7A2017D72B978E990020B9F4 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		7A2017DC2B978F0B0020B9F4 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		7A2017DF2B9795CA0020B9F4 /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
+		7A2017E22B97B1560020B9F4 /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
+		7A2017E52B97B8510020B9F4 /* SizeKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeKey.swift; sourceTree = "<group>"; };
+		7A2017E92B97BBFA0020B9F4 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		7A2017EB2B97C2820020B9F4 /* OffesetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffesetKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,7 @@
 				7A2017AD2B978CE30020B9F4 /* ContentView.swift */,
 				7A2017AF2B978CE50020B9F4 /* Assets.xcassets */,
 				7A2017B12B978CE50020B9F4 /* SOMN_ExpenseTracker.entitlements */,
+				7A2017E42B97B83D0020B9F4 /* Helpers */,
 				7A2017DE2B9795B50020B9F4 /* Extensions */,
 				7A2017DB2B978EED0020B9F4 /* Model */,
 				7A2017DA2B978EA70020B9F4 /* View */,
@@ -149,6 +158,7 @@
 		7A2017DA2B978EA70020B9F4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7A2017E12B97B1170020B9F4 /* EntryView */,
 				7A2017D62B978E7E0020B9F4 /* Onboarding */,
 			);
 			path = View;
@@ -168,6 +178,24 @@
 				7A2017DF2B9795CA0020B9F4 /* Extenstions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7A2017E12B97B1170020B9F4 /* EntryView */ = {
+			isa = PBXGroup;
+			children = (
+				7A2017E22B97B1560020B9F4 /* EntryView.swift */,
+			);
+			path = EntryView;
+			sourceTree = "<group>";
+		};
+		7A2017E42B97B83D0020B9F4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7A2017E52B97B8510020B9F4 /* SizeKey.swift */,
+				7A2017E92B97BBFA0020B9F4 /* CustomTextField.swift */,
+				7A2017EB2B97C2820020B9F4 /* OffesetKey.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,8 +331,12 @@
 				7A2017D82B978E990020B9F4 /* OnboardingView.swift in Sources */,
 				7A2017E02B9795CA0020B9F4 /* Extenstions.swift in Sources */,
 				7A2017AE2B978CE30020B9F4 /* ContentView.swift in Sources */,
+				7A2017EC2B97C2820020B9F4 /* OffesetKey.swift in Sources */,
 				7A2017DD2B978F0B0020B9F4 /* Onboarding.swift in Sources */,
+				7A2017EA2B97BBFA0020B9F4 /* CustomTextField.swift in Sources */,
 				7A2017AC2B978CE30020B9F4 /* SOMN_ExpenseTrackerApp.swift in Sources */,
+				7A2017E32B97B1560020B9F4 /* EntryView.swift in Sources */,
+				7A2017E62B97B8510020B9F4 /* SizeKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
