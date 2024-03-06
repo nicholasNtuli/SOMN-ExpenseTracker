@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7A2017AC2B978CE30020B9F4 /* SOMN_ExpenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2017AB2B978CE30020B9F4 /* SOMN_ExpenseTrackerApp.swift */; };
-		7A2017AE2B978CE30020B9F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2017AD2B978CE30020B9F4 /* ContentView.swift */; };
 		7A2017B02B978CE50020B9F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2017AF2B978CE50020B9F4 /* Assets.xcassets */; };
 		7A2017B42B978CE50020B9F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2017B32B978CE50020B9F4 /* Preview Assets.xcassets */; };
 		7A2017BE2B978CE60020B9F4 /* SOMN_ExpenseTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2017BD2B978CE60020B9F4 /* SOMN_ExpenseTrackerTests.swift */; };
@@ -21,6 +20,11 @@
 		7A2017E62B97B8510020B9F4 /* SizeKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2017E52B97B8510020B9F4 /* SizeKey.swift */; };
 		7A2017EA2B97BBFA0020B9F4 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2017E92B97BBFA0020B9F4 /* CustomTextField.swift */; };
 		7A2017EC2B97C2820020B9F4 /* OffesetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2017EB2B97C2820020B9F4 /* OffesetKey.swift */; };
+		7A90025B2B97D9D000EA5773 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A90025A2B97D9D000EA5773 /* HomeView.swift */; };
+		7A90025D2B97DC0700EA5773 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A90025C2B97DC0700EA5773 /* WelcomeScreen.swift */; };
+		7A90025F2B97DD3B00EA5773 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A90025E2B97DD3B00EA5773 /* Constants.swift */; };
+		7A9002612B97E03900EA5773 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9002602B97E03900EA5773 /* Tab.swift */; };
+		7A9002632B97E1AC00EA5773 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9002622B97E1AC00EA5773 /* TabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +47,6 @@
 /* Begin PBXFileReference section */
 		7A2017A82B978CE30020B9F4 /* SOMN-ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SOMN-ExpenseTracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A2017AB2B978CE30020B9F4 /* SOMN_ExpenseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOMN_ExpenseTrackerApp.swift; sourceTree = "<group>"; };
-		7A2017AD2B978CE30020B9F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A2017AF2B978CE50020B9F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A2017B12B978CE50020B9F4 /* SOMN_ExpenseTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SOMN_ExpenseTracker.entitlements; sourceTree = "<group>"; };
 		7A2017B32B978CE50020B9F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -59,6 +62,11 @@
 		7A2017E52B97B8510020B9F4 /* SizeKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeKey.swift; sourceTree = "<group>"; };
 		7A2017E92B97BBFA0020B9F4 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		7A2017EB2B97C2820020B9F4 /* OffesetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffesetKey.swift; sourceTree = "<group>"; };
+		7A90025A2B97D9D000EA5773 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7A90025C2B97DC0700EA5773 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		7A90025E2B97DD3B00EA5773 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7A9002602B97E03900EA5773 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		7A9002622B97E1AC00EA5773 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				7A2017AB2B978CE30020B9F4 /* SOMN_ExpenseTrackerApp.swift */,
-				7A2017AD2B978CE30020B9F4 /* ContentView.swift */,
 				7A2017AF2B978CE50020B9F4 /* Assets.xcassets */,
 				7A2017B12B978CE50020B9F4 /* SOMN_ExpenseTracker.entitlements */,
 				7A2017E42B97B83D0020B9F4 /* Helpers */,
@@ -151,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				7A2017D72B978E990020B9F4 /* OnboardingView.swift */,
+				7A90025C2B97DC0700EA5773 /* WelcomeScreen.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -158,8 +166,10 @@
 		7A2017DA2B978EA70020B9F4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7A2017E12B97B1170020B9F4 /* EntryView */,
 				7A2017D62B978E7E0020B9F4 /* Onboarding */,
+				7A2017E12B97B1170020B9F4 /* EntryView */,
+				7A9002592B97D9AD00EA5773 /* Home */,
+				7A9002642B97E1BB00EA5773 /* TabBar */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				7A2017DC2B978F0B0020B9F4 /* Onboarding.swift */,
+				7A9002602B97E03900EA5773 /* Tab.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -194,8 +205,25 @@
 				7A2017E52B97B8510020B9F4 /* SizeKey.swift */,
 				7A2017E92B97BBFA0020B9F4 /* CustomTextField.swift */,
 				7A2017EB2B97C2820020B9F4 /* OffesetKey.swift */,
+				7A90025E2B97DD3B00EA5773 /* Constants.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7A9002592B97D9AD00EA5773 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7A90025A2B97D9D000EA5773 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7A9002642B97E1BB00EA5773 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				7A9002622B97E1AC00EA5773 /* TabBarView.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,13 +358,17 @@
 			files = (
 				7A2017D82B978E990020B9F4 /* OnboardingView.swift in Sources */,
 				7A2017E02B9795CA0020B9F4 /* Extenstions.swift in Sources */,
-				7A2017AE2B978CE30020B9F4 /* ContentView.swift in Sources */,
+				7A90025B2B97D9D000EA5773 /* HomeView.swift in Sources */,
+				7A9002632B97E1AC00EA5773 /* TabBarView.swift in Sources */,
 				7A2017EC2B97C2820020B9F4 /* OffesetKey.swift in Sources */,
 				7A2017DD2B978F0B0020B9F4 /* Onboarding.swift in Sources */,
 				7A2017EA2B97BBFA0020B9F4 /* CustomTextField.swift in Sources */,
+				7A9002612B97E03900EA5773 /* Tab.swift in Sources */,
+				7A90025D2B97DC0700EA5773 /* WelcomeScreen.swift in Sources */,
 				7A2017AC2B978CE30020B9F4 /* SOMN_ExpenseTrackerApp.swift in Sources */,
 				7A2017E32B97B1560020B9F4 /* EntryView.swift in Sources */,
 				7A2017E62B97B8510020B9F4 /* SizeKey.swift in Sources */,
+				7A90025F2B97DD3B00EA5773 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

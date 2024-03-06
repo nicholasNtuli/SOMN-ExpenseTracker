@@ -74,7 +74,7 @@ struct EntryView: View {
                                         .opacity(sheetScrollProgress)
                                     })
                                     .fullScreenCover(isPresented: $showHomeView, content: {
-                                        ContentView() // Replace YourDestinationView with the actual destination view
+                                        TabBarView()
                                     })
                                 })
                                 .padding(.vertical, 12)
